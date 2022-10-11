@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import os
 import argparse
-import pandas as pd
 
 
 class Ut8channels:
@@ -39,7 +38,7 @@ class Ut8channels:
 
         dataframe = pd.DataFrame(sensors).transpose()
         column_names = ['sensor {}'.format(c+1) for c in range(Ut8channels.SENSORS_NUMBER)]
-        dataframe.set_axis(column_names, axis=1, inplace=True)
+        dataframe = dataframe.set_axis(column_names, axis=1, copy=False)
         
         return dataframe
    
