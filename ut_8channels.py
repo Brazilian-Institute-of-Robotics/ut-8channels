@@ -55,5 +55,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
     ut_raw_data = Ut8channels(args.filename)
     ut_dataframe = ut_raw_data.read_utd()
-    pd.set_option('display.max_colwidth', -1)
     ut_dataframe.to_csv('{}.csv'.format(args.filename[:-4]), index=True) 
