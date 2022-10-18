@@ -20,4 +20,4 @@ To read the data and export to csv, type:
 
 Just replace `<filename>` with the name of the file you want to export (don't forget to add the `.utd` suffix).
 
-The output is a csv sheet with 8 columns (each for a sensor) and N rows, where N is the number of acquisitions. Each cell corresponds to an A-scan.
+The output is a xlsx file with 8 sheets (each for a sensor). In each sheet, each column represents the data of a single A-scan.
