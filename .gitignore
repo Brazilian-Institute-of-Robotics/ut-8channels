@@ -2,3 +2,5 @@
 *.xlsx
 dataset/
 env/
+*.png
+logs/
