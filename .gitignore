@@ -2,5 +2,7 @@
 *.xlsx
 dataset/
 env/
+ut-env/
 *.png
 logs/
+*.h5
