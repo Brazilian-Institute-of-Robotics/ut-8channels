@@ -6,3 +6,4 @@ ut-env/
 *.png
 logs/
 *.h5
+*.txt
